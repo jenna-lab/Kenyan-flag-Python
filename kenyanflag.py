@@ -21,17 +21,7 @@ n.add_patch(e)
 
 # kenyan shield
 
-vertices = [
-    (4.5, 8),
-    (6, 5.5),
-    (4.5, 3),
-    (3, 5.5)
-]
 
-shield_polygon = patches.Polygon(vertices, closed=True, fill=False, edgecolor='black')
-
-# n.add_patch(spear)
-n.add_patch(shield_polygon)
 
 # Set the limits of the plot
 n.set_xlim(0, 9)
