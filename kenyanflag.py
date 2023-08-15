@@ -34,5 +34,7 @@ n.set_yticks([])
 # Save the figure to a file
 py.savefig('kenyan_flag.png', bbox_inches='tight', dpi=300)
 
+n.axis('equal')
+
 # Display the image
 py.show()
